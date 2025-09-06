@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    margin: .5rem;
+}
+
+.nav {
+  margin-left: auto;
+  padding: 1rem;
+}
+
+.nav a {
+  color:black;
+  font-size:large;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav ul li {
+    padding: 3px;
+    margin: 4px;
+}
+
+.nav li ul {
+    display: none;
+    font-size: smaller;
+
+}
+
+.nav li:hover {
+  background-color: cadetblue; 
+}
+
+li.contains:hover ul {
+    display: block;
+    position: absolute;
+    padding-left:0%;
+    background-color:darkcyan;
+   
+}
+
+li.contains li {
+  float: none;         
+}

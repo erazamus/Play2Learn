@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
         <script src="play2learn.js"></script>
         <title>Contact Us</title>
 
@@ -12,18 +12,22 @@
     <body>
     <header>
         <div id="header">
-            <h1>Play2Learn Logo</h1>
+            
+            <nav>
+            <h1 class="logo">Play2Learn Logo</h1>
             <div class="nav">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="login.html">Login</a>
-                <a href="games.html">Games</a>
-                <div class="games-sub">
-                    <a href="games/anagram-hunt.html">Anagram Hunt</a>
-                    <a href="games/math-facts.html">Math Facts Practice</a>
-                </div>    
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="contains"><a href="games.html">Games</a>
+                    <ul>
+                    <li><a href="games/anagram-hunt.html">Anagram Hunt</a></li>
+                    <li><a href="games/math-facts.html">Math Facts Practice</a></li>
+                    </ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                </ul></li> 
             </div>
-
+            </nav>
         </div>
     </header>
     <main>

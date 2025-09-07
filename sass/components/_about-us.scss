@@ -2,35 +2,24 @@
 
   display: flex;
   flex-direction: column;
+  padding-left: 15rem;
+  padding-right: 15rem; 
+
+  article {
+
+    margin: 5;
+    
+  }
+  .two-mon {
+    
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+ }
   
 }
 
-.one-mon ~ p {
-    display: flex;
-    font-size: larger;
-    margin-left: 1rem;
-    flex: 2;
-}
 
-.one-mon {
-  border: 4px solid rgb(87, 12, 12);  
-  margin-right: 3rem;
-  float: right;
-  flex: 1;
-  
-}
 
-.two-mon {
-  border: 4px solid rgb(87, 12, 12);  
-  margin-left: 3rem;
-  float: left;
-  
-}
 
-.about p {
 
-  border: 2px solid black;
-  margin-left: 10rem;
-  margin-right: 10rem;   
-}
 

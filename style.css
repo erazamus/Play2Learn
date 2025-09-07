@@ -335,15 +335,18 @@ p, ul, ol {
   margin-left: 2rem;
 }
 
-.page {
-  margin: 0 auto;
-  width: 80%;
+article {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+html {
+  background-color: rgb(120, 234, 234);
 }
 
 footer {
   display: flex;
   background-color: darkcyan;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 5rem;
@@ -356,10 +359,16 @@ footer {
 
 header {
   background-color: darkcyan;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 5rem;
+}
+
+main {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-top: 2.5rem;
 }
 
 nav {
@@ -405,6 +414,41 @@ li.contains:hover ul {
 
 li.contains li {
   float: none;
+}
+
+.about {
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: antiquewhite;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.one-mon ~ p {
+  display: flex;
+  font-size: larger;
+  margin-left: 1rem;
+}
+
+.one-mon {
+  border: 4px solid rgb(87, 12, 12);
+  margin-right: 3rem;
+  float: right;
+}
+
+.two-mon {
+  border: 4px solid rgb(87, 12, 12);
+  margin-left: 3rem;
+  float: left;
+}
+
+.about p {
+  border: 2px solid black;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 /*# sourceMappingURL=style.css.map */

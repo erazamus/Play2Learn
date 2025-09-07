@@ -1,0 +1,40 @@
+.about {
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: antiquewhite;
+   
+  margin-left: 15rem;
+  margin-right: 15rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.one-mon ~ p {
+    display: flex;
+    font-size: larger;
+    margin-left: 1rem;
+}
+
+.one-mon {
+  border: 4px solid rgb(87, 12, 12);  
+  margin-right: 3rem;
+  float: right;
+  
+}
+
+.two-mon {
+  border: 4px solid rgb(87, 12, 12);  
+  margin-left: 3rem;
+  float: left;
+  
+}
+
+.about p {
+
+  border: 2px solid black;
+  margin-left: 10rem;
+  margin-right: 10rem;   
+}
+

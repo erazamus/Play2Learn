@@ -1,5 +1,5 @@
 .page {
-  display: flex;
+  
   flex-direction: column;
   border: 2px solid black;
   border-radius: 1rem;
@@ -7,17 +7,15 @@
   margin: 6rem;
 
   .quotes {
-    padding: 3rem;
-    flex-direction: column;
-    #qbox {
-      width: 60%;
-      text-align: center;
-    }
+    flex-direction: row;
+    margin-left: 2rem;
+    width: 54%;
   }
 
   .main-content {
     padding: 3rem;
     display: flex;
-    flex-direction: row;
-  }
+    
+    
+}
 }

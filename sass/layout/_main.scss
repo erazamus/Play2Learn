@@ -1,13 +1,23 @@
-main {
-  padding: 7rem;
+.page {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: antiquewhite;
+  margin: 6rem;
 
+  .quotes {
+    padding: 3rem;
+    flex-direction: column;
+    #qbox {
+      width: 60%;
+      text-align: center;
+    }
+  }
 
-  .page {
-    border: 2px solid black;
-    border-radius: 1rem;
-    padding: 5rem;
-  
-    background-color: antiquewhite;
-  
+  .main-content {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
   }
 }

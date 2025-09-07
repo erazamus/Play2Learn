@@ -332,7 +332,6 @@ p, ul, ol {
 
 .logo {
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin-left: 2rem;
 }
 
 article {
@@ -365,14 +364,26 @@ header {
   height: 5rem;
 }
 
-main {
-  padding: 7rem;
-}
-main .page {
+.page {
+  display: flex;
+  flex-direction: column;
   border: 2px solid black;
   border-radius: 1rem;
-  padding: 5rem;
   background-color: antiquewhite;
+  margin: 6rem;
+}
+.page .quotes {
+  padding: 3rem;
+  flex-direction: column;
+}
+.page .quotes #qbox {
+  width: 60%;
+  text-align: center;
+}
+.page .main-content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
 }
 
 nav {
